@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+html {
+  background: #f8f7f7;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.sidebar {
+  display: grid;
+  background-color: #dddddd;
+  width: 15vw;
+  height: 100vh;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 2%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  float: left;
+  /* margin: 0 1.5%; */
+  /* width: 63%; */
 }
 
-.App-link {
-  color: #61dafb;
+ul {
+  margin-top: 30vh;
+  /* display: grid; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.reviews {
+  float: left;
+  margin-top: 5%;
+  margin-left: 20px;
+  width: 18vw;
+  height: 40vh;
+  background-color: #dddddd;
+}
+
+.average {
+  display: inline-block;
+  margin-bottom: 2%;
+  margin-top: 5%;
+  margin-left: 20px;
+  width: 18vw;
+  height: 40vh;
+  background-color: #dddddd;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+}
+
+.sentiment {
+  float: right;
+  margin-top: 5%;
+  margin-right: 25vw;
+  width: 18vw;
+  height: 40vh;
+  background-color: #dddddd;
+}
+
+.website {
+  display: grid;
+  background-color: #dddddd;
+  width: 56vw;
+  height: 57vh;
+  margin-bottom: 2%;
+  margin-top: 0%;
+  margin-left: 19%;
+
+}
+
+.box {
+  background-color: #bfbebd;
+  margin-left: 15%;
+  width: 40vw;
+  height: 30vh;
 }
